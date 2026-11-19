@@ -57,6 +57,7 @@ jobs:
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-24.04
+    timeout-minutes: 30
     env:
       SECRET_KEY_BASE: ci_secret_key_base_not_used_for_real_sessions
 
